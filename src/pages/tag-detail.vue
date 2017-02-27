@@ -1,7 +1,7 @@
 <template>
-  <article class="tag-page">
+  <div class="tag-page">
     this is tag detail page
-  </article>
+  </div>
 </template>
 <script>
   const COMPONENT_NAME = 'tag-page';

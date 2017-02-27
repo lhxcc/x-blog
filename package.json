@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack-dashboard -- webpack-dev-server --config webpack.config.dev.js --compress true --devtool eval-source-map --progress --colors --hot --port 3000 --inline --host 0.0.0.0 --content-base ./dist",
     "server": "json-server --watch ./src/lib/mock/db.json --port 3001",
-    "prod": "node build.js | webpack --config webpack.config.prod.js"
+    "prod": "node ./build/build.js | webpack --config webpack.config.prod.js"
   },
   "repository": {
     "type": "git",

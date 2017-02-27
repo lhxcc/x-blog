@@ -1,11 +1,7 @@
 <template>
-  <article class="post-page">
-    <article-list 
-      v-for="art in articleList"
-      :article="art"
-      >
-    </article-list>
-  </article>
+  <div class="post-page">
+    <article-list v-for="art in articleList" :article="art"></article-list>
+  </div>
 </template>
 
 <script>

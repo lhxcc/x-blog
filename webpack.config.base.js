@@ -59,7 +59,7 @@ module.exports = {
   },
   resolve: {
     alias: {
-      'vue$': 'vue/dist/vue.common.js',
+      /*'vue$': 'vue/dist/vue.common.js',*/
       'components': path.join(__dirname, 'src/components'),   // 定义文件路径， 加速打包过程中webpack路径查找过程
       'lib': path.join(__dirname, 'src/lib'),
       'less': path.join(__dirname, 'src/less')
@@ -69,7 +69,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({                                   // html模板输出插件
       title: 'XRene Personal Blog',
-      template: `${PATHS.dist}/template/index.ejs`,
+      template: `${PATHS.src}/template/index.ejs`,
       inject: 'body',
       filename: `${PATHS.dist}/pages/index.html`
     }),

@@ -1,5 +1,5 @@
 <template>
-  <article class="archive-page">
+  <div class="archive-page">
     <div class="archive-container">
       <div class="archive-box">
         <archive-list v-for="archive in archiveList"
@@ -8,7 +8,7 @@
         </archive-list>
       </div>
     </div>
-  </article>
+  </div>
 </template>
 <script>
   import ArchiveList from 'components/archive-list.vue';

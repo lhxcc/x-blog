@@ -1,5 +1,5 @@
 <template>
-  <article>
+  <div>
     <h2 class="archive-time">
       {{archiveItem.time}}
     </h2>
@@ -9,7 +9,7 @@
       </h1>
       <p class="post-time">{{post.time}}</p>
     </header>
-  </article>
+  </div>
 </template>
 
 <script>

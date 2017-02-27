@@ -1,5 +1,5 @@
 <template>
-  <article class="article-list">
+  <div class="article-list">
     <div class="article-content-box">
       <p class="publish-time">
         {{article.time}} 发布
@@ -23,7 +23,7 @@
         <img src="../images/article.jpeg" alt="">
       </div>
     </div>
-  </article>
+  </div>
 </template>
 <script>
   const COMPONENT_NAME = 'article-list';

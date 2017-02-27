@@ -1,5 +1,5 @@
 <template>
-  <article class="about-page">
+  <div class="about-page">
     <section class="about-box">
       <div class="about-header-container">
         <div class="avatar-container">
@@ -45,7 +45,7 @@
         </div>
       </div>
     </section>
-  </article>
+  </div>
 </template>
 <script>
   const COMPONENT_NAME = 'about-page';

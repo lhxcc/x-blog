@@ -1,5 +1,5 @@
 <template>
-  <article class="tags-page">
+  <div class="tags-page">
     <section class="tags-box">
       <p class="tags-title">目前共计有 {{tagList.length}} 个标签</p>
       <ul class="tags-ul">
@@ -8,7 +8,7 @@
         </li>
       </ul>
     </section>
-  </article>
+  </div>
 </template>
 
 <script>
